@@ -36,7 +36,6 @@ body {
   SHORTHAND
   background: color image repeat position/size;
   */
-  border: 2px solid blue;
   background: var(--bg-url) no-repeat top center/cover;
 }
 
@@ -46,14 +45,12 @@ body * {
 }
 
 #container {
-  border: 2px solid red;
   width: 360px;
   margin: 56px auto 0px;
   padding: 0px 24px;
 }
 
 #profile {
-  border: 2px solid yellow;
   text-align: center;
   padding: 24px;
 }
@@ -104,7 +101,6 @@ body * {
 }
 
 ul {
-  border: 2px solid green;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -133,7 +129,6 @@ ul li a:hover {
 }
 
 #social-links {
-  border: 2px solid orange;
   display: flex;
   justify-content: center;
   padding: 24px 0px;
@@ -154,7 +149,6 @@ ul li a:hover {
 }
 
 footer {
-  border: 2px solid magenta;
   text-align: center;
   padding: 24px 0px;
   font-size: 14px;
